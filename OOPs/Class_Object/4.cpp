@@ -12,10 +12,10 @@ public:
   // Method to input book details
   void inputDetails() {
     cout << "Enter book title: ";
-    getline(std::cin >> std::ws, title); // Skip newline from previous input
+    getline(cin >> ws, title); // Skip newline from previous input
 
     cout << "Enter book author: ";
-    getline(std::cin >> std::ws, author);
+    getline(cin >> ws, author);
 
     cout << "Enter book price: ";
     cin >> price;
